@@ -21,8 +21,7 @@
   text-align: center;
   vertical-align: center;
   line-height: 190px;
-  top: -5em;
-
+  top: -8em;
 }
 .bb::before, .bb::after {
   content: '';
@@ -58,4 +57,29 @@ body {
 }
 *, *::before, *::after {
   box-sizing: border-box;
+}
+.aa {
+  margin: auto;
+  color: #ffffff;
+  font-size: 2.2em;
+  font-family: 'Myriad pro bold';
+  text-align: center;
+  vertical-align: center;
+  line-height: 3em;
+}
+.cc {
+  position: relative;
+  margin: auto;
+  color: #ffffff;
+  font-size: 2.2em;
+  font-family: 'Myriad pro bold';
+  text-align: center;
+  vertical-align: center;
+  top: 5.5em;
+  line-height: 3.8em;
+}
+img{
+  height: 7em;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 1em;
 }
